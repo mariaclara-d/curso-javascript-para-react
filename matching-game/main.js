@@ -5,6 +5,6 @@ import BoardGame from "../src/objetics/BoardGame";
 
 
 const $root = document.querySelector("#root");
-const $htmlBoardGame = BoardGame(6);
+const $htmlContent = BoardGame(6);
 
-$root.insertAdjacentHTML("beforeend", $htmlBoardGame);
+$root.insertAdjacentHTML("beforeend", $htmlContent);
