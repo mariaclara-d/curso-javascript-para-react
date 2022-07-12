@@ -1,8 +1,9 @@
 import "../src/styles/settings/colors.css";
 import "../src/styles/generic/reset.css"
 import "../src/styles/elements/base.css";
-import BoardGame from "../src/objetics/BoardGame";
+
 import ScoreBoard from "../src/objetics/ScoreBoard";
+import BoardGame from "../src/objetics/BoardGame";
 
 
 const $root = document.querySelector("#root");
@@ -13,7 +14,7 @@ $root.insertAdjacentHTML(
  `    
 
 ${ScoreBoard()}
-${BoardGame(6)}
+${BoardGame(2)}
 
 `
 );
